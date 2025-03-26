@@ -57,7 +57,7 @@ We recommend the *Microsoft Power Platform* because it offers a suite of tools t
  
 Power Apps is a tool that lets us build custom, interactive applications without needing to write code. 
 
-#### *How It Works for Omega: The Order Management App (Canvas App)*
+#### *How It Works for Omega: The Order Management App (Model Driven App)*
  
   When a customer places an order via Omega’s website, they are directed to a user-friendly *Order Management App* built with Power Apps.  
   - *Order Entry:* The sales team or even the customer directly enters order details (product, quantity, delivery options) into the app.  
