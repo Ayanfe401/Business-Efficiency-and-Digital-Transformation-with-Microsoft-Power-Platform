@@ -144,3 +144,7 @@ Microsoft Power Platform is the perfect solution to transform Omega Manufacturin
 💡 *Dataverse* will serve as a secure and unified data backbone.  
 
 By embracing this solution, Omega Manufacturing will *enhance efficiency, improve accuracy, and drive business growth.*  
+
+
+[Ayanfe Power Platform Sales Pitch -.pptx](https://github.com/user-attachments/files/19504226/Ayanfe.Power.Platform.Sales.Pitch.-.pptx)
+
