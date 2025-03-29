@@ -145,6 +145,7 @@ Microsoft Power Platform is the perfect solution to transform Omega Manufacturin
 
 By embracing this solution, Omega Manufacturing will *enhance efficiency, improve accuracy, and drive business growth.*  
 
+[Power_Platform_Use_Case[1].pptx](https://github.com/user-attachments/files/19516755/Power_Platform_Use_Case.1.pptx)
 
-[Ayanfe Power Platform Sales Pitch -.pptx](https://github.com/user-attachments/files/19504226/Ayanfe.Power.Platform.Sales.Pitch.-.pptx)
+
 
