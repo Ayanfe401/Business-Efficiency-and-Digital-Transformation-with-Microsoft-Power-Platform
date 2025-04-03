@@ -189,5 +189,5 @@ Microsoft Power Platform is the perfect solution to transform Omega Manufacturin
 💡 **Power Virtual Agents** will enhance customer interactions with AI-driven support.
 
 By embracing this solution, Omega Manufacturing will **enhance efficiency, improve accuracy, and drive business growth**.
-[Power Platform Sales Pitch 1 - solution 1.pptx](https://github.com/user-attachments/files/19551223/Power.Platform.Sales.Pitch.1.-.solution.1.pptx)
+https://1drv.ms/p/c/03cfc99376a3ee7d/EUa8Ny6xH4JPhC6wXhIKDF4BhzV5m7QF8tQIru6z44R5DQ
 
