@@ -211,4 +211,4 @@ This well-structured Dataverse schema for the Inventory Management System provid
 
 Implementing this ERD through Microsoft Power Platform will empower your organization with automated workflows, reduce operational inefficiencies, and provide the actionable insights needed for better decision-making. With this design, Omega Manufacturing is well-prepared for digital transformation, supporting scalable growth and improved customer satisfaction.
 
-https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw
+##Click here## https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw
