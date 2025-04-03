@@ -211,4 +211,4 @@ This well-structured Dataverse schema for the Inventory Management System provid
 
 Implementing this ERD through Microsoft Power Platform will empower your organization with automated workflows, reduce operational inefficiencies, and provide the actionable insights needed for better decision-making. With this design, Omega Manufacturing is well-prepared for digital transformation, supporting scalable growth and improved customer satisfaction.
 
-[Power_Platform_Entity_Relationship_Diagram_For_Omega_Manufacturing_Order_Processing.pptx](https://github.com/user-attachments/files/19551250/Power_Platform_Entity_Relationship_Diagram_For_Omega_Manufacturing_Order_Processing.pptx)
+https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw
