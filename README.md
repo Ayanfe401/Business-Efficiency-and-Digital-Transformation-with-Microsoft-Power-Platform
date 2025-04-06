@@ -41,7 +41,7 @@ Chris Adams (Sales Executive) – Wants quick access to customer purchase histor
 ## 🔍 Business Justification – Why Power Platform?
 The company wants to understand why Power Platform is the best solution for this business problem.
 
-Check out my [Sales Pitch for Microsoft Power Platform](Sales Pitch.md), where I break down:
+Check out my [Sales Pitch for Microsoft Power Platform](https://github.com/Ayanfe401/Business-Efficiency-and-Digital-Transformation-with-Microsoft-Power-Platform/blob/main/Sales%20Pitch.md), where I break down:
 
 The current challenges faced by the company
 How Power Platform addresses each pain point
