@@ -1,5 +1,3 @@
----
-
 ### Addressing Omega Manufacturing’s Operational Challenges with Microsoft Dataverse
 
 Omega Manufacturing has faced persistent operational issues including:
@@ -9,13 +7,13 @@ Omega Manufacturing has faced persistent operational issues including:
 - Lack of real-time visibility across customer orders, inventory levels, and internal approvals.  
 - Growing concern about *data security*, prompting leadership to insist on a secure, compliant platform.
 
-To address these challenges, a solution built on *Power Platform* using *Microsoft Dataverse* was proposed to centralize and secure business data, automate approvals, and enhance process visibility across the organization.
+To address these challenges, a solution built on Power Platform using Microsoft Dataverse was proposed to centralize and secure business data, automate approvals, and enhance process visibility across the organization.
 
 ---
 
-### *Creating the Data Source with Microsoft Dataverse*
+### Creating the Data Source with Microsoft Dataverse
 
-To operationalize this solution, the following data model is proposed. It is tailored to support the company’s customer management, order tracking, inventory monitoring, and approval workflows—all in one secure platform.
+To operationalize this solution, the following data model is proposed. It is tailored to support the company’s customer management, order tracking, inventory monitoring, and approval workflows, all in one secure platform.
 
 ---
 
