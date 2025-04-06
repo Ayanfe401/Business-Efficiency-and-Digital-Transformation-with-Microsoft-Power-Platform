@@ -213,7 +213,7 @@ Implementing this ERD through Microsoft Power Platform will empower your organiz
 
 ## Dataverse Entity Relationship Diagram for Omega Manufacturing
 
-Click [here](./Power_Platform_Entity_Relationship_Diagram_For_Omega_Manufacturing_Order_Processing.pptx) to view my *Dataverse Entity Relationship Diagram* presentation.  
+Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw) to view my Dataverse Entity Relationship Diagram presentation.  
 It provides deep insight into the digital transformation needs of Omega Manufacturing Industry, focusing on optimizing order processing and inventory management using Microsoft Power Platform and Dataverse.
 
 This ERD outlines:
