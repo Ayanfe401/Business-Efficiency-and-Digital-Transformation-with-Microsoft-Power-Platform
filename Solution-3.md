@@ -5,7 +5,7 @@ Omega Manufacturing has faced persistent operational issues including:
 - Disjointed data spread across spreadsheets and emails, leading to inefficiencies in order processing and inventory control.  
 - Manual approval workflows that are slow, untraceable, and prone to human error.  
 - Lack of real-time visibility across customer orders, inventory levels, and internal approvals.  
-- Growing concern about *data security*, prompting leadership to insist on a secure, compliant platform.
+- Growing concern about data security, prompting leadership to insist on a secure, compliant platform.
 
 To address these challenges, a solution built on Power Platform using Microsoft Dataverse was proposed to centralize and secure business data, automate approvals, and enhance process visibility across the organization.
 
@@ -17,8 +17,8 @@ To operationalize this solution, the following data model is proposed. It is tai
 
 ---
 
-#### *1. Customers Table*  
-*Purpose*: Central repository for all customer details to eliminate scattered information and support better service and tracking.
+#### 1. Customers Table  
+**Purpose**: Central repository for all customer details to eliminate scattered information and support better service and tracking.
 
 | Column Name     | Data Type     |
 |-----------------|---------------|
@@ -35,8 +35,8 @@ To operationalize this solution, the following data model is proposed. It is tai
 
 ---
 
-#### *2. Products Table*  
-*Purpose*: Store and manage consistent product details, eliminating pricing discrepancies and improving order accuracy.
+#### 2. Products Table  
+**Purpose**: Store and manage consistent product details, eliminating pricing discrepancies and improving order accuracy.
 
 | Column Name     | Data Type     |
 |-----------------|---------------|
@@ -48,8 +48,8 @@ To operationalize this solution, the following data model is proposed. It is tai
 
 ---
 
-#### *3. Orders Table*  
-*Purpose*: Capture all customer orders with current statuses for easy monitoring and fulfillment.
+#### 3. Orders Table  
+**Purpose**: Capture all customer orders with current statuses for easy monitoring and fulfillment.
 
 | Column Name     | Data Type     |
 |-----------------|---------------|
@@ -62,7 +62,7 @@ To operationalize this solution, the following data model is proposed. It is tai
 ---
 
 #### 4. Order Items Table  
-*Purpose*: Break down orders into individual product lines to support multiple-item purchases and detailed reporting.
+**Purpose**: Break down orders into individual product lines to support multiple-item purchases and detailed reporting.
 
 | Column Name     | Data Type     |
 |-----------------|---------------|
@@ -75,8 +75,8 @@ To operationalize this solution, the following data model is proposed. It is tai
 
 ---
 
-#### *5. Inventory Table*  
-*Purpose*: Provide up-to-date visibility on stock levels to reduce overselling and support procurement planning.
+#### 5. Inventory Table  
+**Purpose**: Provide up-to-date visibility on stock levels to reduce overselling and support procurement planning.
 
 | Column Name     | Data Type     |
 |-----------------|---------------|
@@ -88,8 +88,8 @@ To operationalize this solution, the following data model is proposed. It is tai
 
 ---
 
-#### *6. Approvals Table*  
-*Purpose*: Manage and track internal approvals for customer orders, ensuring accountability and compliance.
+#### 6. Approvals Table  
+**Purpose**: Manage and track internal approvals for customer orders, ensuring accountability and compliance.
 
 | Column Name     | Data Type     |
 |-----------------|---------------|
@@ -102,9 +102,9 @@ To operationalize this solution, the following data model is proposed. It is tai
 
 ---
 
-### *Relationships Between Tables*
+### Relationships Between Tables
 
-All data is tightly linked through *lookup relationships*, ensuring referential integrity and traceability.
+All data is tightly linked through lookup relationships, ensuring referential integrity and traceability.
 
 | Primary Table   | Related Table   | Relationship Type | Business Relevance |
 |-----------------|------------------|-------------------|---------------------|
@@ -116,14 +116,14 @@ All data is tightly linked through *lookup relationships*, ensuring referential 
 
 ---
 
-### *Overview & Final Positioning*
+### Overview & Final Positioning
 
 This data model, built securely on Microsoft Dataverse, forms the backbone of Omega Manufacturing’s digital transformation strategy. It:
 
-- Consolidates data into a *single source of truth*, ending the use of spreadsheets and emails for critical workflows.  
-- Enables *automated order approvals* and real-time tracking via Power Automate and Power Apps.  
+- Consolidates data into a single source of truth, ending the use of spreadsheets and emails for critical workflows.  
+- Enables automated order approvals and real-time tracking via Power Automate and Power Apps.  
 - Enhances decision-making with accurate, centralized inventory and customer data.  
-- Meets leadership’s requirement for *enterprise-level security* and *compliance*.  
+- Meets leadership’s requirement for enterprise-level security and compliance.  
 - Prepares the company for future enhancements such as analytics dashboards in Power BI and chatbot support.
 
 ---
