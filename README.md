@@ -4,10 +4,6 @@ Omega Manufacturing is currently struggling with outdated processes that rely he
 
 The company is now exploring a more modern, connected solution, and that’s where Microsoft Power Platform comes in..
 
-The team is putting in extra effort just to stay afloat, manually entering orders, updating stock levels, and managing approvals through emails. The company has decided to replace their current system with a more unified, automated system that ensures seamless data flow, real-time insights, and faster operations.
-
-They are thinking of moving to Microsoft Power Platform.
-
 ---
 
 ## Current Pain Points Slowing Down Omega Manufacturing’s Efficiency
