@@ -98,7 +98,7 @@ How It Works:
 
 This reduces manual inquiries, enhances customer experience, and increases operational efficiency.
 
-### 🔹 Power Virtual Agents: AI-Powered Customer Support
+### 🔹 Copilot Studio: AI-Powered Customer Support
 Power Virtual Agents will enable automated 24/7 customer support by:
 
 🤖 Answering frequently asked questions about order status, inventory availability, and pricing.  
