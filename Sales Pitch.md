@@ -114,7 +114,7 @@ By integrating an AI chatbot, Omega Manufacturing can enhance customer satisfact
 
 To ensure a seamless transition to Microsoft Power Platform, a step-by-step implementation strategy will be adopted.  
 
-###📌 Phase 1: Initial Development and Testing
+### 📌 Phase 1: Initial Development and Testing
 In the initial phase, a Microsoft Power Platform order Management and Inventory Application will be created. This solution will enhance operational efficiency while prioritizing data security at every level.
 
 ✅ Power Pages: A secure, customer-facing portal for order placement and for customers to be able to track their orders.
@@ -131,7 +131,8 @@ In the initial phase, a Microsoft Power Platform order Management and Inventory 
 
 🧪 Rigorous testing will align the system with real operational needs before deployment.
 
-## 📌 Phase 2: Training and Adoption
+
+### 📌 Phase 2: Training and Adoption
 Effective adoption is critical. Targeted training sessions will be conducted to empower teams and ensure secure and confident use of the new systems.
 
 📌 Sales & Order Management: Training on processing and tracking orders securely via Power Apps.
@@ -142,7 +143,8 @@ Effective adoption is critical. Targeted training sessions will be conducted to 
 
 🔍 Focused onboarding will support user confidence and promote secure operational data handling.
 
-## 📌 Phase 3: Continuous Improvement and Optimization
+
+### 📌 Phase 3: Continuous Improvement and Optimization
 Following deployment, Th company will focus on continuous enhancement to maximize value and maintain system alignment with evolving business goals.
 
 
@@ -188,7 +190,7 @@ By embracing this solution, Omega Manufacturing will **enhance efficiency, impro
 
 ---
 
-## Omega Manufacturing Industry – Digital Transformation Sales Pitch
+## A mid - sized company – Digital Transformation Sales Pitch
 
 Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EUa8Ny6xH4JPhC6wXhIKDF4BhzV5m7QF8tQIru6z44R5DQ) to view my Sales Pitch Presentation  
 This presentation provides a clear breakdown of the business needs and how Microsoft Power Platform can be used to digitally transform Omega Manufacturing Industry's operations.
