@@ -8,31 +8,53 @@ The company is now exploring a more modern, connected solution, and that’s whe
 
 ## Current Pain Points Slowing Down Omega Manufacturing’s Efficiency
 
-After analyzing Omega’s operations, here are the critical blockers:
+After looking into company's day-to-day operations, a few key challenges stood out:
 
-- Manual Order Processing: Orders are captured via email and entered manually, increasing errors and delays.  
-- Disconnected Systems: Different teams use siloed tools, making collaboration slow and inconsistent.  
-- Inventory Discrepancies: Updates are done manually, causing mismatched stock levels.  
-- Approval Delays: Order approvals take time due to email chains.  
-- Limited Visibility: No centralized dashboards for tracking sales trends, stock levels, or customer behavior.
+- Manual Order Processing: Orders come in via email and are manually entered, which is time-consuming and error-prone.
+- Disconnected Systems: Teams use different systems, making it hard to collaborate or access shared information.  
+- Inventory Inaccuracy: Manual updates lead to mismatched stock levels and missed restocks.
+- Approval Bottlenecks: Order approvals are delayed due to long email threads and unclear processes.
+- Lack of Visibility: There’s no centralized view of key data like sales trends, inventory levels, or customer history.
 
-These issues reduce productivity, increase fulfillment time, and negatively affect customer satisfaction.
+These issues are draining productivity and hurting customer experience — exactly the kind of business problem I aim to solve.
+
+---
+
+## My Roles and Approach 
+
+This project is part of my portfolio to demonstrate how I use Power Platform to solve real-world business challenges. It also shows how I’d approach pitching a solution like this to a client or decision-maker.
+
+I mapped the companies challenges to specific Power Platform tools:
+
+✅ Power Apps: To build a user-friendly order management app that eliminates email-based tracking.
+
+✅ Dataverse: For a centralized, secure data backbone connecting all departments.
+
+✅ Power BI: To give leadership real-time dashboards and insights.
+
+✅ Power Automate: Automates approvals, inventory alerts, and order status notifications.  
+
+✅ Power Pages: For customer-facing features like order tracking or inquiry submission.
+
+Each tool plays a role in building a more connected, automated, and responsive system — with minimal disruption and scalable results.
 
 ---
 
 ## Meet the Client Team
 
-John Smith (Operations Manager) – Needs an automated order tracking system.
+John (Operations): Needs better visibility and less manual work on orders.
 
-Sarah Johnson (Customer Service Rep) – Wants a centralized system for customer inquiries.
+Sarah (Customer Service): Wants one place to manage all customer inquiries.
 
-Michael Brown (IT Admin) – Focused on security and governance.
+Michael (IT): Focused on data security and system governance.
 
-David Lee (Finance Controller) – Requires financial tracking for order payments.
+David (Finance): Looking for more accurate tracking of order-related payments.
 
-Karen White (Inventory Manager) – Needs automated stock tracking.
+Karen (Inventory): Needs automatic stock level updates.
 
-Chris Adams (Sales Executive) – Wants quick access to customer purchase history.
+Chris (Sales): He wants quick access to customer history and trends.
+
+This helped me tailor the solution to specific stakeholder needs, which is key to building trust and buy-in from the client.
 
 ---
 
