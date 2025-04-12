@@ -1,6 +1,8 @@
 # Sales Pitch for Microsoft Power Platform in Omega Manufacturing Industry
 
-Omega Manufacturing is currently facing major inefficiencies in handling customer orders and inventory management. The existing process relies heavily on emails, spreadsheets, and manual tracking leading to delays, human errors, inventory mismatches, and lack of visibility across departments.
+Omega Manufacturing is currently struggling with outdated processes that rely heavily on emails, spreadsheets, and manual updates. These inefficiencies have led to delays, frequent errors, inventory mismatches, and poor visibility between departments. The result? Slower operations, frustrated teams, and unhappy customers.
+
+The company is now exploring a more modern, connected solution, and that’s where Microsoft Power Platform comes in..
 
 The team is putting in extra effort just to stay afloat, manually entering orders, updating stock levels, and managing approvals through emails. The company has decided to replace their current system with a more unified, automated system that ensures seamless data flow, real-time insights, and faster operations.
 
