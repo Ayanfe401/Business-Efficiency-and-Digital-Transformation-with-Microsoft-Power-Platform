@@ -6,7 +6,7 @@ Omega Manufacturing, a mid-sized company, faces significant challenges in managi
 
 The leadership team is considering digital transformation but is uncertain if Microsoft Power Platform is the right choice. The CEO requires detailed proof of how this solution aligns with Omega Manufacturing’s needs and a clear roadmap for implementation.
 
-Microsoft Power Platform provides a modern low-code ecosystem that integrates automation, centralized data, and real-time insights. By leveraging Power Apps for application development, Power Automate for workflow automation, Power BI for analytics, Dataverse for secure data management, Power Pages for self-service customer portals, and Power Virtual Agents for AI-powered assistance, Omega Manufacturing will significantly improve operational efficiency, enhance data accuracy, and empower decision-making.
+Microsoft Power Platform provides a modern low-code ecosystem that integrates automation, centralized data, and real-time insights. By leveraging Power Apps for application development, Power Automate for workflow automation, Power BI for analytics, Dataverse for secure data management, Power Pages for self-service customer portals, and Copilot Studio for AI-powered assistance, Omega Manufacturing will significantly improve operational efficiency, enhance data accuracy, and empower decision-making.
 
 ---
 
@@ -186,7 +186,7 @@ Microsoft Power Platform is the perfect solution to transform Omega Manufacturin
 
 💡 **Power Pages** will create a seamless self-service experience for customers.  
 
-💡 **Power Virtual Agents** will enhance customer interactions with AI-driven support.
+💡 **Copilot Studio** will enhance customer interactions with AI-driven support.
 
 By embracing this solution, Omega Manufacturing will **enhance efficiency, improve accuracy, and drive business growth**.
 
