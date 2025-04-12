@@ -16,7 +16,7 @@ After looking into company's day-to-day operations, a few key challenges stood o
 - Approval Bottlenecks: Order approvals are delayed due to long email threads and unclear processes.
 - Lack of Visibility: There’s no centralized view of key data like sales trends, inventory levels, or customer history.
 
-These issues are draining productivity and hurting customer experience — exactly the kind of business problem I aim to solve.
+These issues are draining productivity and hurting customer experience, exactly the kind of business problem I aim to solve.
 
 ---
 
@@ -36,11 +36,11 @@ I mapped the companies challenges to specific Power Platform tools:
 
 ✅ Power Pages: For customer-facing features like order tracking or inquiry submission.
 
-Each tool plays a role in building a more connected, automated, and responsive system — with minimal disruption and scalable results.
+Each tool plays a role in building a more connected, automated, and responsive system, with minimal disruption and scalable results.
 
 ---
 
-## Meet the Client Team
+## Meet the Client Team (Fictional but Practical Personas)
 
 John (Operations): Needs better visibility and less manual work on orders.
 
