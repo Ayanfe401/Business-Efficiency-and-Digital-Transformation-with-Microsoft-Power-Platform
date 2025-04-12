@@ -52,7 +52,7 @@ Each tool plays a role in building a more connected, automated, and responsive s
 
 ---
 
-## Clint Personas
+## Client Personas
 
 - John (Operations): Needs better visibility and less manual work on orders.
 
@@ -75,10 +75,14 @@ The company wants to understand why Power Platform is the best solution for this
 
 Check out my [Sales Pitch for Microsoft Power Platform](https://github.com/Ayanfe401/Business-Efficiency-and-Digital-Transformation-with-Microsoft-Power-Platform/blob/main/Sales%20Pitch.md), where I break down:
 
-The current challenges faced by the company
-How Power Platform addresses each pain point
-Specific tools (Power Pages, Power Apps, Power BI, and Dataverse) mapped to business needs
-Tangible benefits like time savings, reduced errors, and faster order fulfillment
+- The current challenges faced by the company
+
+- How Power Platform addresses each pain point
+
+- Specific tools (Power Pages, Power Apps, Power BI, and Dataverse) mapped to business needs
+
+- Tangible benefits like time savings, reduced errors, and faster order fulfillment.
+
 📊 View my [Sales Pitch Presentation Slides](https://1drv.ms/p/c/03cfc99376a3ee7d/EUa8Ny6xH4JPhC6wXhIKDF4BhzV5m7QF8tQIru6z44R5DQ)
 
 ---
