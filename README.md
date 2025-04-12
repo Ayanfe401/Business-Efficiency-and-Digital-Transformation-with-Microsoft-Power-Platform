@@ -3,11 +3,10 @@
 ## 📑 Table of Contents
 
 - [Introduction](#introduction)
-- [Current Challenges](#current-pain-points-slowing-down-omega-manufacturing's-efficiency)
-- [My Role and Approach](#my-role-and-approach)
-- [Power Platform Tools Used](#power-platform-tools-used)
-- [Client Persona's](#client-persona's)
-- [Business Justification](#business-justification--why-power-platform)
+- [Current Challenges](##current-pain-points-slowing-down-omega-manufacturing's-efficiency)
+- [My Role and Approach](##my-role-and-approach)
+- [Client Persona's](##client-persona's)
+- [Business Justification](##business-justification--why-power-platform)
 
 
 ## Introduction 
