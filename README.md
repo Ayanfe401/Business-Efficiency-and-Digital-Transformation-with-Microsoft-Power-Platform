@@ -3,11 +3,10 @@
 ## 📑 Table of Contents
 
 - [Introduction](#introduction)
-- [Current Challenges](##current-pain-points-slowing-down-omega-manufacturing's-efficiency)
-- [My Role and Approach](##my-role-and-approach)
-- [Client Persona's](##client-persona's)
-- [Business Justification](##business-justification--why-power-platform)
-
+- [Current Challenges](#current-pain-points-slowing-down-omega-manufacturings-efficiency)
+- [My Role and Approach](#my-role-and-approach)
+- [Client Personas](#client-personas)
+- [Business Justification – Why Power Platform?](#business-justification--why-power-platform)
 
 ## Introduction 
 
@@ -31,7 +30,7 @@ These issues are draining productivity and hurting customer experience, exactly 
 
 ---
 
-## My Roles and Approach 
+## My Role and Approach 
 
 This project is part of my portfolio to demonstrate how I use Power Platform to solve real-world business challenges. It also shows how I’d approach pitching a solution like this to a client or decision-maker.
 
@@ -53,7 +52,7 @@ Each tool plays a role in building a more connected, automated, and responsive s
 
 ---
 
-## Clint Persona's
+## Clint Personas
 
 - John (Operations): Needs better visibility and less manual work on orders.
 
