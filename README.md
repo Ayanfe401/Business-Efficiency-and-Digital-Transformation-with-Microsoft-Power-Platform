@@ -36,6 +36,8 @@ I mapped the companies challenges to specific Power Platform tools:
 
 ✅ Power Pages: For customer-facing features like order tracking or inquiry submission.
 
+✅ Copilot Studio: To build AI-powered chatbots that provide 24/7 automated customer support, handling FAQs, guiding processes, and escalating complex issues to human agents.
+
 Each tool plays a role in building a more connected, automated, and responsive system, with minimal disruption and scalable results.
 
 ---
