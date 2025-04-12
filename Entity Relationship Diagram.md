@@ -16,7 +16,7 @@ Below are the tables along with the important fields and their data types. Each 
 ### 🔴 1. Customer  
 The Customer table stores key information about each client who places an order. Each customer is uniquely identified using CustomerID, ensuring a clear distinction between different clients. Contact details such as FirstName, LastName, Email, Phone, and Address allow easy communication and order tracking. Additional location fields (City, State, Postal Code, and Country) help in organizing deliveries, ensuring accurate shipping details, and supporting regional sales analysis. This structured approach streamlines customer management and improves service efficiency.
 
-| **Field Name** | **Data Type**         | **Description**                         |
+| **Columns Name** | **Data Type**         | **Description**                         |
 | -------------- | --------------------- | --------------------------------------- |
 | CustomerID     | Unique Identifier     | Primary key, unique customer ID         |
 | FirstName      | Text                  | Customer's first name                   |
@@ -34,7 +34,7 @@ The Customer table stores key information about each client who places an order.
 ### 🟢 2. Product  
 The Product table contains details about all available products in the inventory. Each product is uniquely identified by ProductID, ensuring precise tracking. The ProductName and Description fields provide essential details about the product, aiding customers and staff in identifying items. The UnitPrice field determines the cost per unit of the product, which is crucial for pricing calculations in orders. The Category field categorizes products, helping organize items into groups such as Raw Materials or Finished Goods. This structured data allows for effective product management, pricing strategies, and inventory control.
 
-| **Field Name**   | **Data Type**         | **Description**                                                   |
+| **Columns Name**   | **Data Type**         | **Description**                                                   |
 | ---------------- | --------------------- | ----------------------------------------------------------------- |
 | ProductID        | Unique Identifier     | Primary key, unique product ID                                    |
 | ProductName      | Text                  | Name of the product                                               |
@@ -47,7 +47,7 @@ The Product table contains details about all available products in the inventory
 ### 🔵 3. Customer Order  
 The Customer Order table records all orders placed by customers. Each order is uniquely identified using OrderID, which links directly to a specific customer via CustomerID. The OrderDate captures when the order was placed, enabling time-based tracking and analysis. The OrderStatus field helps track order progress, moving through stages like Pending, Shipped, Delivered, or Canceled. The OrderTotal calculates the total price of all items in the order, ensuring accurate billing. This table plays a vital role in tracking sales transactions and managing the order fulfillment process efficiently.
 
-| **Field Name** | **Data Type**         | **Description**                                       |
+| **Columns Name** | **Data Type**         | **Description**                                       |
 | -------------- | --------------------- | ----------------------------------------------------- |
 | OrderID        | Unique Identifier     | Primary key, unique order ID                           |
 | CustomerID     | Unique Identifier     | Foreign key referencing Customer(CustomerID)         |
@@ -60,7 +60,7 @@ The Customer Order table records all orders placed by customers. Each order is u
 ### 🟡 4. Order Item  
 The Order Item table tracks the individual products within each order. Since one order can contain multiple items, each entry is uniquely identified by OrderItemID, with a link to OrderID to associate it with a specific order. The ProductID field identifies the specific product in the order, ensuring accurate inventory deduction and pricing. The Quantity field records how many units of the product were ordered, while the UnitPrice captures the price per unit at the time of order. The ExtendedPrice field calculates the total cost for that product within the order (Quantity × UnitPrice), ensuring precise order billing and financial tracking. This table ensures seamless order processing and inventory updates.
 
-| **Field Name**   | **Data Type**         | **Description**                                                   |
+| **Columns Name**   | **Data Type**         | **Description**                                                   |
 | ---------------- | --------------------- | ----------------------------------------------------------------- |
 | OrderItemID      | Unique Identifier     | Primary key, unique identifier for the order item                 |
 | OrderID          | Unique Identifier     | Foreign key referencing Customer Order(OrderID)                   |
@@ -74,7 +74,7 @@ The Order Item table tracks the individual products within each order. Since one
 ### 🟣 5. Inventory  
 Inventory management ensures that products are available to fulfill customer orders. Each product has an associated StockLevel, which is updated whenever an order is processed. The LastUpdated field keeps track of inventory changes, ensuring real-time stock monitoring. The Location field helps identify where specific products are stored within the warehouse, reducing retrieval time and improving logistics efficiency.
 
-| **Field Name**      | **Data Type**         | **Description**                                                |
+| **Columns Name**      | **Data Type**         | **Description**                                                |
 | ------------------- | --------------------- | -------------------------------------------------------------- |
 | ProductID           | Unique Identifier     | Primary key and foreign key referencing Product(ProductID)     |
 | StockLevel          | Number                | Current available quantity in stock                             |
@@ -86,7 +86,7 @@ Inventory management ensures that products are available to fulfill customer ord
 ### 🟠 6. Approval Entity
 The Approval table ensures that every order undergoes an approval process as part of Omega Manufacturing’s workflow. This entity tracks all necessary information related to approvals, providing oversight and accountability. The table ensures that orders go through an authorization process before fulfillment. When a new order is placed, it is assigned an ApprovalStatus (Pending by default). An authorized individual (ApproverID) reviews the order and either approves or rejects it. The ApprovalDateTime logs the exact time of approval or rejection, while the Comments field allows for additional notes. This structured approach ensures accountability and compliance with business policies.
 
-| **Field Name**      | **Data Type**         | **Description**                                                     |
+| **Columns Name**      | **Data Type**         | **Description**                                                     |
 | ------------------- | --------------------- | ------------------------------------------------------------------- |
 | ApprovalID          | Unique Identifier     | Primary key, unique identifier for the approval process             |
 | OrderID             | Unique Identifier     | Foreign key referencing the associated Customer Order (OrderID)     |
@@ -205,19 +205,12 @@ Below is a detailed explanation of the **arrows** and the **'1'** and **'N'** no
 
 ##  Conclusion
 
-This well-structured Dataverse schema for the Inventory Management System provides a robust foundation for automating Omega Manufacturing’s order processing and inventory tracking. By centralizing all critical data into one secure repository, this design ensures accuracy, eliminates manual errors, and allows for real‑time reporting and analytics. The relationships between the Customer, Product, Customer Order, Order Item, Inventory, and approval tables ensure seamless data flow across departments.
-
-Implementing this ERD through Microsoft Power Platform will empower your organization with automated workflows, reduce operational inefficiencies, and provide the actionable insights needed for better decision-making. With this design, Omega Manufacturing is well-prepared for digital transformation, supporting scalable growth and improved customer satisfaction.
+This well-structured Dataverse schema for the Inventory Management System provides a robust foundation for automating Omega Manufacturing’s order processing and inventory tracking. By centralizing all critical data into one secure repository, this design ensures accuracy, eliminates manual errors, and allows for real‑time reporting and analytics. The relationships between the Customer, Product, Customer Order, Order Item, Inventory, and approval tables ensure seamless data flow.
 
 ## Dataverse Entity Relationship Diagram for Omega Manufacturing
 
 Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw) to view my Dataverse Entity Relationship Diagram presentation.  
 It provides deep insight into the digital transformation needs of Omega Manufacturing Industry, focusing on optimizing order processing and inventory management using Microsoft Power Platform and Dataverse.
 
-This ERD outlines:
-- Core business entities and their relationships
-- Seamless data flow across departments
-- Improved operational efficiency and data security with Dataverse
-- A structured implementation plan for digital transformation
 
 *Presented by:* Ayanfe Moses Asulewon
