@@ -18,7 +18,7 @@ After analyzing Omega’s operations, here are the critical blockers:
 - Approval Delays: Order approvals take time due to email chains.  
 - Limited Visibility: No centralized dashboards for tracking sales trends, stock levels, or customer behavior.
 
->  These issues reduce productivity, increase fulfillment time, and negatively affect customer satisfaction.
+These issues reduce productivity, increase fulfillment time, and negatively affect customer satisfaction.
 
 ---
 
