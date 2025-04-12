@@ -4,6 +4,8 @@ Omega Manufacturing is currently facing major inefficiencies in handling custome
 
 The team is putting in extra effort just to stay afloat, manually entering orders, updating stock levels, and managing approvals through emails. The company has decided to replace their current system with a more unified, automated system that ensures seamless data flow, real-time insights, and faster operations.
 
+They are thinking of moving to Microsoft Power Platform.
+
 ---
 
 ## Current Pain Points Slowing Down Omega Manufacturing’s Efficiency
