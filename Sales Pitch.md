@@ -2,7 +2,7 @@
 
 
 ## 1. Introduction: Embracing the Power Platform 
-Omega Manufacturing, a mid-sized company, faces significant challenges in managing customer orders and inventory. The company currently relies on spreadsheets, emails, and manual processes, leading to frequent errors, delays, and a lack of visibility across operations. These inefficiencies slow down order fulfillment, create inventory discrepancies, and make decision-making difficult.
+A mid-sized company, faces significant challenges in managing customer orders and inventory. The company currently relies on spreadsheets, emails, and manual processes, leading to frequent errors, delays, and a lack of visibility across operations. These inefficiencies slow down order fulfillment, create inventory discrepancies, and make decision-making difficult.
 
 The leadership team is considering digital transformation but is uncertain if Microsoft Power Platform is the right choice. The CEO requires detailed proof of how this solution aligns with Omega Manufacturing’s needs and a clear roadmap for implementation.
 
@@ -186,14 +186,14 @@ Microsoft Power Platform provides a robust framework to revolutionize Omega Manu
 
 💡 Copilot Studio enables smart, conversational AI experiences.
 
-By embracing this solution, Omega Manufacturing will **enhance efficiency, improve accuracy, and drive business growth**.
+By embracing this solution, the company will **enhance efficiency, improve accuracy, and drive business growth**.
 
 ---
 
 ## A mid - sized company – Digital Transformation Sales Pitch
 
 Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EUa8Ny6xH4JPhC6wXhIKDF4BhzV5m7QF8tQIru6z44R5DQ) to view my Sales Pitch Presentation  
-This presentation provides a clear breakdown of the business needs and how Microsoft Power Platform can be used to digitally transform Omega Manufacturing Industry's operations.
+This presentation provides a clear breakdown of the business needs and how Microsoft Power Platform can be used to digitally transform the company's operations.
 
 *Presented by:* Ayanfe Moses Asulewon  
 
