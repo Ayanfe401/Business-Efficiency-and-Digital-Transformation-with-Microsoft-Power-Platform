@@ -1,5 +1,17 @@
 # Sales Pitch for Microsoft Power Platform in Omega Manufacturing Industry
 
+## 📑 Table of Contents
+
+- [Introduction](#introduction)
+- [Current Challenges](#current-pain-points-slowing-down-omega-manufacturing's-efficiency)
+- [My Role and Approach](#my-role-and-approach)
+- [Power Platform Tools Used](#power-platform-tools-used)
+- [Client Persona's](#client-persona's)
+- [Business Justification](#business-justification--why-power-platform)
+
+
+## Introduction 
+
 Omega Manufacturing is currently struggling with outdated processes that rely heavily on emails, spreadsheets, and manual updates. These inefficiencies have led to delays, frequent errors, inventory mismatches, and poor visibility between departments. The result? Slower operations, frustrated teams, and unhappy customers.
 
 The company is now exploring a more modern, connected solution, and that’s where Microsoft Power Platform comes in..
@@ -42,19 +54,19 @@ Each tool plays a role in building a more connected, automated, and responsive s
 
 ---
 
-## Meet the Client Team (Fictional but Practical Personas)
+## Clint Persona's
 
-John (Operations): Needs better visibility and less manual work on orders.
+- John (Operations): Needs better visibility and less manual work on orders.
 
-Sarah (Customer Service): Wants one place to manage all customer inquiries.
+- Sarah (Customer Service): Wants one place to manage all customer inquiries.
 
-Michael (IT): Focused on data security and system governance.
+- Michael (IT): Focused on data security and system governance.
 
-David (Finance): Looking for more accurate tracking of order-related payments.
+- David (Finance): Looking for more accurate tracking of order-related payments.
 
-Karen (Inventory): Needs automatic stock level updates.
+- Karen (Inventory): Needs automatic stock level updates.
 
-Chris (Sales): He wants quick access to customer history and trends.
+- Chris (Sales): He wants quick access to customer history and trends.
 
 This helped me tailor the solution to specific stakeholder needs, which is key to building trust and buy-in from the client.
 
