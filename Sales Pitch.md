@@ -195,9 +195,5 @@ By embracing this solution, Omega Manufacturing will **enhance efficiency, impro
 Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EUa8Ny6xH4JPhC6wXhIKDF4BhzV5m7QF8tQIru6z44R5DQ) to view my Sales Pitch Presentation  
 This presentation provides a clear breakdown of the business needs and how Microsoft Power Platform can be used to digitally transform Omega Manufacturing Industry's operations.
 
-It highlights the challenges Omega faces such as manual inventory tracking, poor data visibility, and fragmented order processing. The proposed solution demonstrates how Microsoft Power Platform — using Power Pages, Power Apps, Power Automate, and Dataverse to streamline workflows, ensure data accuracy, and improve decision-making through real-time reporting.
-
-Explore how low-code solution empowers users, reduces operational delays, and aligns with the company’s vision for growth.
-
 *Presented by:* Ayanfe Moses Asulewon  
 
