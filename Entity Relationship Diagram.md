@@ -209,7 +209,7 @@ This well-structured Dataverse schema for the Inventory Management System provid
 
 ## Dataverse Entity Relationship Diagram for Omega Manufacturing
 
-Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw) to view myEntity Relationship Diagram presentation.  
+Click [here](https://1drv.ms/p/c/03cfc99376a3ee7d/EeeqNxCmhqhLtQtdO7Jz3k8BwaDkdh4wa9XJbeOO9zQDPw) to view my Entity Relationship Diagram presentation.  
 
 
 *Presented by:* Ayanfe Moses Asulewon
