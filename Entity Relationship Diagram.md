@@ -11,7 +11,7 @@ This document outlines the data schema for the Order Processing System at Omega 
 
 ## 1. Tables (Entities) & Columns 
 
-Below are the tables along with the important fields and their data types. Each table is designed to capture information related to customers, products, orders, inventory, and approval.
+Below are the tables along with the important columns and their data types. Each table is designed to capture information related to customers, products, orders, inventory, and approval.
 
 ### 🔴 1. Customer  
 The Customer table stores key information about each client who places an order. Each customer is uniquely identified using CustomerID, ensuring a clear distinction between different clients. Contact details such as FirstName, LastName, Email, Phone, and Address allow easy communication and order tracking. Additional location fields (City, State, Postal Code, and Country) help in organizing deliveries, ensuring accurate shipping details, and supporting regional sales analysis. This structured approach streamlines customer management and improves service efficiency.
@@ -32,7 +32,7 @@ The Customer table stores key information about each client who places an order.
 ---
 
 ### 🟢 2. Product  
-The Product table contains details about all available products in the inventory. Each product is uniquely identified by ProductID, ensuring precise tracking. The ProductName and Description fields provide essential details about the product, aiding customers and staff in identifying items. The UnitPrice field determines the cost per unit of the product, which is crucial for pricing calculations in orders. The Category field categorizes products, helping organize items into groups such as Raw Materials or Finished Goods. This structured data allows for effective product management, pricing strategies, and inventory control.
+The Product table contains details about all available products in the inventory. Each product is uniquely identified by ProductID, ensuring precise tracking. The ProductName and Description columns provide essential details about the product, aiding customers and staff in identifying items. The UnitPrice column determines the cost per unit of the product, which is crucial for pricing calculations in orders. The Category column categorizes products, helping organize items into groups such as Raw Materials or Finished Goods. This structured data allows for effective product management, pricing strategies, and inventory control.
 
 | **Columns Name**   | **Data Type**         | **Description**                                                   |
 | ---------------- | --------------------- | ----------------------------------------------------------------- |
@@ -45,7 +45,7 @@ The Product table contains details about all available products in the inventory
 ---
 
 ### 🔵 3. Customer Order  
-The Customer Order table records all orders placed by customers. Each order is uniquely identified using OrderID, which links directly to a specific customer via CustomerID. The OrderDate captures when the order was placed, enabling time-based tracking and analysis. The OrderStatus field helps track order progress, moving through stages like Pending, Shipped, Delivered, or Canceled. The OrderTotal calculates the total price of all items in the order, ensuring accurate billing. This table plays a vital role in tracking sales transactions and managing the order fulfillment process efficiently.
+The Customer Order table records all orders placed by customers. Each order is uniquely identified using OrderID, which links directly to a specific customer via CustomerID. The OrderDate captures when the order was placed, enabling time-based tracking and analysis. The OrderStatus column helps track order progress, moving through stages like Pending, Shipped, Delivered, or Canceled. The OrderTotal calculates the total price of all items in the order, ensuring accurate billing. This table plays a vital role in tracking sales transactions and managing the order fulfillment process efficiently.
 
 | **Columns Name** | **Data Type**         | **Description**                                       |
 | -------------- | --------------------- | ----------------------------------------------------- |
@@ -58,7 +58,7 @@ The Customer Order table records all orders placed by customers. Each order is u
 ---
 
 ### 🟡 4. Order Item  
-The Order Item table tracks the individual products within each order. Since one order can contain multiple items, each entry is uniquely identified by OrderItemID, with a link to OrderID to associate it with a specific order. The ProductID field identifies the specific product in the order, ensuring accurate inventory deduction and pricing. The Quantity field records how many units of the product were ordered, while the UnitPrice captures the price per unit at the time of order. The ExtendedPrice field calculates the total cost for that product within the order (Quantity × UnitPrice), ensuring precise order billing and financial tracking. This table ensures seamless order processing and inventory updates.
+The Order Item table tracks the individual products within each order. Since one order can contain multiple items, each entry is uniquely identified by OrderItemID, with a link to OrderID to associate it with a specific order. The ProductID column identifies the specific product in the order, ensuring accurate inventory deduction and pricing. The Quantity column records how many units of the product were ordered, while the UnitPrice captures the price per unit at the time of order. The ExtendedPrice column calculates the total cost for that product within the order (Quantity × UnitPrice), ensuring precise order billing and financial tracking. This table ensures seamless order processing and inventory updates.
 
 | **Columns Name**   | **Data Type**         | **Description**                                                   |
 | ---------------- | --------------------- | ----------------------------------------------------------------- |
@@ -72,7 +72,7 @@ The Order Item table tracks the individual products within each order. Since one
 ---
 
 ### 🟣 5. Inventory  
-Inventory management ensures that products are available to fulfill customer orders. Each product has an associated StockLevel, which is updated whenever an order is processed. The LastUpdated field keeps track of inventory changes, ensuring real-time stock monitoring. The Location field helps identify where specific products are stored within the warehouse, reducing retrieval time and improving logistics efficiency.
+Inventory management ensures that products are available to fulfill customer orders. Each product has an associated StockLevel, which is updated whenever an order is processed. The LastUpdated field keeps track of inventory changes, ensuring real-time stock monitoring. The Location column helps identify where specific products are stored within the warehouse, reducing retrieval time and improving logistics efficiency.
 
 | **Columns Name**      | **Data Type**         | **Description**                                                |
 | ------------------- | --------------------- | -------------------------------------------------------------- |
@@ -84,7 +84,7 @@ Inventory management ensures that products are available to fulfill customer ord
 ---
 
 ### 🟠 6. Approval Entity
-The Approval table ensures that every order undergoes an approval process as part of Omega Manufacturing’s workflow. This entity tracks all necessary information related to approvals, providing oversight and accountability. The table ensures that orders go through an authorization process before fulfillment. When a new order is placed, it is assigned an ApprovalStatus (Pending by default). An authorized individual (ApproverID) reviews the order and either approves or rejects it. The ApprovalDateTime logs the exact time of approval or rejection, while the Comments field allows for additional notes. This structured approach ensures accountability and compliance with business policies.
+The Approval table ensures that every order undergoes an approval process as part of company's workflow. This entity tracks all necessary information related to approvals, providing oversight and accountability. The table ensures that orders go through an authorization process before fulfillment. When a new order is placed, it is assigned an ApprovalStatus (Pending by default). An authorized individual (ApproverID) reviews the order and either approves or rejects it. The ApprovalDateTime logs the exact time of approval or rejection, while the Comments field allows for additional notes. This structured approach ensures accountability and compliance with business policies.
 
 | **Columns Name**      | **Data Type**         | **Description**                                                     |
 | ------------------- | --------------------- | ------------------------------------------------------------------- |
