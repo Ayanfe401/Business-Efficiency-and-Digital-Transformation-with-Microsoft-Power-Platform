@@ -2,6 +2,29 @@
 
 ## Entity Relationship Diagram (ERD) for Omega Manufacturing’s Order Processing System
 
+---
+
+## 📚 Table of Contents
+
+1. [Overview](#overview)
+2. [1. Tables (Entities) & Columns](#1-tables-entities--columns)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🔴 [Customer](#customer)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🟢 [Product](#product)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🔵 [Customer Order](#customer-order)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🟡 [Order Item](#order-item)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🟣 [Inventory](#inventory)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🟠 [Approval Entity](#approval-entity)
+3. [2. Relationships Between Tables](#2-relationships-between-tables)
+4. [3. Entity Relationship Diagram (ERD)](#3-entity-relationship-diagram-erd)
+5. [Explanation of Arrows and Relationship Notations](#explanation-of-arrows-and-relationship-notations)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🔁 [Arrow Direction](#direction-of-the-arrows)  
+   &nbsp;&nbsp;&nbsp;&nbsp;🔢 ['1' and 'N' Notations](#explanation-of-1-and-n)  
+   &nbsp;&nbsp;&nbsp;&nbsp;📌 [Detailed Relationship Breakdown](#detailed-breakdown-of-relationships)
+6. [Conclusion](#conclusion)
+7. [Presentation Link](#dataverse-entity-relationship-diagram-for-omega-manufacturing)
+
+---
+
 ## Overview
 
 
