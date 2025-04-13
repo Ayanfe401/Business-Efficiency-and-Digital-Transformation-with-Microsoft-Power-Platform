@@ -6,7 +6,7 @@
 - [Current Challenges](#current-pain-points-slowing-down-omega-manufacturings-efficiency)
 - [My Role and Approach](#my-role-and-approach)
 - [Client Personas](#client-personas)
-- [Business Justification – Why Power Platform?](#business-justification--why-power-platform)
+- [Business Justification – Why Power Platform?](#business-justification--why-power-platform?)
 
 ## Introduction 
 
