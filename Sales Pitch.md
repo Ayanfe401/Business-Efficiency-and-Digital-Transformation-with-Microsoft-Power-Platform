@@ -1,5 +1,26 @@
 # Power Platform Sales Pitch: Transforming Omega Manufacturing’s Customer Order and Inventory Management
 
+---
+
+## 📑 Table of Contents
+
+- [1. Introduction: Embracing the Power Platform](#1-introduction-embracing-the-power-platform)
+- [2. Key Challenges: Identifying the Problems](#2-key-challenges-identifying-the-problems)
+- [3. The Solution: Microsoft Power Platform as the Game Changer](#3-the-solution-microsoft-power-platform-as-the-game-changer)
+  - [Power Apps](#-power-apps-transforming-order-and-inventory-management)
+  - [Power Automate](#-power-automate-driving-efficiency-with-process-automation)
+  - [Power BI](#-power-bi-real-time-insights-for-smarter-decision-making)
+  - [Dataverse](#-dataverse-the-secure-and-centralized-data-management)
+  - [Power Pages](#-power-pages-customer-self-service-portal)
+  - [Copilot Studio](#-copilot-studio-ai-powered-customer-support)
+- [4. Structured Implementation Approach](#4-structured-implementation-approach)
+  - [Phase 1: Initial Development and Testing](#-phase-1-initial-development-and-testing)
+  - [Phase 2: Training and Adoption](#-phase-2-training-and-adoption)
+  - [Phase 3: Continuous Improvement and Optimization](#-phase-3-continuous-improvement-and-optimization)
+- [5. Business Impact: The Value of Power Platform](#5-business-impact-the-value-of-power-platform)
+- [6. Conclusion: A Secure, Intelligent Future for Omega Manufacturing](#6-conclusion-a-secure-intelligent-future-for-omega-manufacturing)
+
+---
 
 ## 1. Introduction: Embracing the Power Platform 
 A mid-sized company, faces significant challenges in managing customer orders and inventory. The company currently relies on spreadsheets, emails, and manual processes, leading to frequent errors, delays, and a lack of visibility across operations. These inefficiencies slow down order fulfillment, create inventory discrepancies, and make decision-making difficult.
