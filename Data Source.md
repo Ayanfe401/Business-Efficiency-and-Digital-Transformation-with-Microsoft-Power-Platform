@@ -122,7 +122,7 @@ Below is the proposed table design including columns and data types, purpose-bui
 | Products      | Inventory         | One-to-One        | One inventory record per product                 |
 | Orders        | Approvals         | One-to-Many       | Orders may require multiple approvals            |
 
-All relationships are implemented using **Lookup columns in Dataverse**, maintaining data consistency and supporting rich filtering, rollups, and automation.
+All relationships are implemented using Lookup columns in Dataverse, maintaining data consistency and supporting rich filtering, rollups, and automation.
 
 ---
 
@@ -135,16 +135,16 @@ Microsoft Dataverse was selected due to:
 | Secure and centralized data   | Role-based access, encryption at rest and transit   |
 | Rapid app development         | Native support in Power Apps and Power Automate     |
 | Strong relationships          | Built-in referential integrity and lookups          |
-| Audit trail & compliance      | Native activity logging, field security             |
+| Audit trail and compliance      | Native activity logging, field security             |
 | Integration potential         | Works with Power BI, AI Builder, external systems   |
 
 ---
 
 ## 5️⃣ Conclusion  
 
-By designing this data source using **Microsoft Dataverse**, Omega Manufacturing achieves:
+By designing this data source using Microsoft Dataverse, the company achieves:
 
-- A **single source of truth** across orders, inventory, products, and customers  
-- **Scalable, secure** data handling with audit trails and approval visibility  
-- A foundation for **automated workflows**, reports, and dashboards  
+- A source of truth across orders, inventory, products, and customers  
+- Scalable, secure data handling with audit trails and approval visibility  
+- A foundation for automated workflows, reports, and dashboards  
 - Preparedness for next-phase digital transformation using Power Apps, Power BI, Power Pages and Power Automation.
