@@ -1,129 +1,150 @@
-### Addressing Omega Manufacturing’s Operational Challenges with Microsoft Dataverse
 
-Omega Manufacturing has faced persistent operational issues including:
+# Data Source Creation for Omega Manufacturing’s Order Processing System
 
-- Disjointed data spread across spreadsheets and emails, leading to inefficiencies in order processing and inventory control.  
-- Manual approval workflows that are slow, untraceable, and prone to human error.  
-- Lack of real-time visibility across customer orders, inventory levels, and internal approvals.  
-- Growing concern about data security, prompting leadership to insist on a secure, compliant platform.
-
-To address these challenges, a solution built on Power Platform using Microsoft Dataverse was proposed to centralize and secure business data, automate approvals, and enhance process visibility across the organization.
-
----
-
-### Creating the Data Source with Microsoft Dataverse
-
-To operationalize this solution, the following data model is proposed. It is tailored to support the company’s customer management, order tracking, inventory monitoring, and approval workflows, all in one secure platform.
-
----
-
-#### 1. Customers Table  
-**Purpose**: Central repository for all customer details to eliminate scattered information and support better service and tracking.
-
-| Column Name     | Data Type     |
-|-----------------|---------------|
-| CustomerID      | Autonumber (Primary Key) |
-| FirstName       | Text          |
-| LastName        | Text          |
-| Email           | Email         |
-| Phone           | Phone         |
-| Address         | Text Area     |
-| City            | Text          |
-| State           | Text          |
-| PostalCode      | Text          |
-| Country         | Text          |
+## Table of Contents  
+1. [Objective](#1️⃣-objective)  
+2. [Table/List Design](#2️⃣-tablelist-design)  
+   - [2.1 Customers Table](#21-customers-table)  
+   - [2.2 Products Table](#2.2-products-table)  
+   - [2.3 Orders Table](#2.3-orders-table)  
+   - [2.4 Order Items Table](#2.4-order-items-table)  
+   - [2.5 Inventory Table](#2.5-inventory-table)  
+   - [2.6 Approvals Table](#2.6-approvals-table)  
+3. [Relationships Between Tables](#3️⃣-relationships-between-tables)  
+4. [Dataverse Platform Justification](#4️⃣-dataverse-platform-justification)  
+5. [Conclusion](#5️⃣-conclusion)
 
 ---
 
-#### 2. Products Table  
-**Purpose**: Store and manage consistent product details, eliminating pricing discrepancies and improving order accuracy.
+## 1️⃣ Objective  
 
-| Column Name     | Data Type     |
-|-----------------|---------------|
-| ProductID       | Autonumber (Primary Key) |
-| ProductName     | Text          |
-| Description     | Text Area     |
-| UnitPrice       | Currency      |
-| Category        | Choice        |
+Create a structured and relational data source in **Microsoft Dataverse** that:
+
+- Unifies customer, product, inventory, and order data  
+- Enables automation of workflows (e.g., order approvals)  
+- Ensures traceability, accuracy, and data compliance  
+- Provides a foundation for building apps, flows, and reports  
 
 ---
 
-#### 3. Orders Table  
-**Purpose**: Capture all customer orders with current statuses for easy monitoring and fulfillment.
+## 2️⃣ Table/List Design  
 
-| Column Name     | Data Type     |
-|-----------------|---------------|
-| OrderID         | Autonumber (Primary Key) |
-| Customer        | Lookup (to Customers) |
-| OrderDate       | Date/Time     |
-| OrderStatus     | Choice (Pending, Approved, Shipped, etc.) |
-| OrderTotal      | Currency (calculated) |
+Below is the proposed table design including columns and data types, purpose-built for Microsoft Dataverse.
 
 ---
 
-#### 4. Order Items Table  
-**Purpose**: Break down orders into individual product lines to support multiple-item purchases and detailed reporting.
+### 2.1 Customers Table  
 
-| Column Name     | Data Type     |
-|-----------------|---------------|
-| OrderItemID     | Autonumber (Primary Key) |
-| Order           | Lookup (to Orders) |
-| Product         | Lookup (to Products) |
-| Quantity        | Whole Number  |
-| UnitPrice       | Currency      |
-| ExtendedPrice   | Currency (calculated: Quantity × UnitPrice) |
-
----
-
-#### 5. Inventory Table  
-**Purpose**: Provide up-to-date visibility on stock levels to reduce overselling and support procurement planning.
-
-| Column Name     | Data Type     |
-|-----------------|---------------|
-| InventoryID     | Autonumber (Primary Key) |
-| Product         | Lookup (to Products) |
-| StockLevel      | Whole Number  |
-| LastUpdated     | Date/Time     |
-| WarehouseLocation | Text        |
+| Column Name  | Data Type                  | Description                      |
+|--------------|----------------------------|----------------------------------|
+| CustomerID   | Autonumber (Primary Key)   | Unique identifier                |
+| FirstName    | Text                       | Customer's first name            |
+| LastName     | Text                       | Customer's last name             |
+| Email        | Email                      | Email address                    |
+| Phone        | Phone                      | Contact number                   |
+| Address      | Text Area                  | Full street address              |
+| City         | Text                       | City of residence                |
+| State        | Text                       | State/Province                   |
+| PostalCode   | Text                       | ZIP/Postal code                  |
+| Country      | Text                       | Country                          |
 
 ---
 
-#### 6. Approvals Table  
-**Purpose**: Manage and track internal approvals for customer orders, ensuring accountability and compliance.
+### 📦 2.2 Products Table  
 
-| Column Name     | Data Type     |
-|-----------------|---------------|
-| ApprovalID      | Autonumber (Primary Key) |
-| Order           | Lookup (to Orders) |
-| Approver        | Lookup (System User) |
-| ApprovalStatus  | Choice (Pending, Approved, Rejected) |
-| ApprovalDateTime| Date/Time     |
-| Comments        | Text Area     |
+| Column Name   | Data Type                  | Description                      |
+|---------------|----------------------------|----------------------------------|
+| ProductID     | Autonumber (Primary Key)   | Unique product identifier        |
+| ProductName   | Text                       | Name of the product              |
+| Description   | Text Area                  | Detailed description             |
+| UnitPrice     | Currency                   | Price per unit                   |
+| Category      | Choice                     | Product type/category            |
 
 ---
 
-### Relationships Between Tables
+### 📃 2.3 Orders Table  
 
-All data is tightly linked through lookup relationships, ensuring referential integrity and traceability.
-
-| Primary Table   | Related Table   | Relationship Type | Business Relevance |
-|-----------------|------------------|-------------------|---------------------|
-| Customers       | Orders            | One-to-Many       | One customer can place multiple orders |
-| Orders          | Order Items       | One-to-Many       | Each order can contain multiple products |
-| Products        | Order Items       | One-to-Many       | Track which products appear in which orders |
-| Products        | Inventory         | One-to-One        | Track stock for each unique product |
-| Orders          | Approvals         | One-to-Many       | Enable multiple approvals per order |
+| Column Name   | Data Type                  | Description                      |
+|---------------|----------------------------|----------------------------------|
+| OrderID       | Autonumber (Primary Key)   | Unique order number              |
+| Customer      | Lookup (to Customers)      | Customer who placed the order    |
+| OrderDate     | Date/Time                  | Date order was created           |
+| OrderStatus   | Choice                     | Status (Pending, Approved, etc.) |
+| OrderTotal    | Currency (Calculated)      | Total order value                |
 
 ---
 
-### Overview & Final Positioning
+### 🧾 2.4 Order Items Table  
 
-This data model, built securely on Microsoft Dataverse, forms the backbone of Omega Manufacturing’s digital transformation strategy. It:
-
-- Consolidates data into a single source of truth, ending the use of spreadsheets and emails for critical workflows.  
-- Enables automated order approvals and real-time tracking via Power Automate and Power Apps.  
-- Enhances decision-making with accurate, centralized inventory and customer data.  
-- Meets leadership’s requirement for enterprise-level security and compliance.  
-- Prepares the company for future enhancements such as analytics dashboards in Power BI and chatbot support.
+| Column Name     | Data Type                  | Description                          |
+|------------------|----------------------------|--------------------------------------|
+| OrderItemID      | Autonumber (Primary Key)   | Unique ID for each line item         |
+| Order            | Lookup (to Orders)         | Associated order                     |
+| Product          | Lookup (to Products)       | Product in the order                 |
+| Quantity         | Whole Number               | Number of units                      |
+| UnitPrice        | Currency                   | Price per unit at time of order      |
+| ExtendedPrice    | Currency (Calculated)      | Quantity × UnitPrice                 |
 
 ---
+
+### 🏪 2.5 Inventory Table  
+
+| Column Name       | Data Type                  | Description                        |
+|--------------------|----------------------------|------------------------------------|
+| InventoryID        | Autonumber (Primary Key)   | Unique stock record                |
+| Product            | Lookup (to Products)       | Product being tracked              |
+| StockLevel         | Whole Number               | Current inventory count            |
+| LastUpdated        | Date/Time                  | Timestamp of last update           |
+| WarehouseLocation  | Text                       | Physical storage location          |
+
+---
+
+### ✅ 2.6 Approvals Table  
+
+| Column Name       | Data Type                  | Description                          |
+|--------------------|----------------------------|--------------------------------------|
+| ApprovalID         | Autonumber (Primary Key)   | Unique ID per approval action        |
+| Order              | Lookup (to Orders)         | Order requiring approval             |
+| Approver           | Lookup (System User)       | Approver's system identity           |
+| ApprovalStatus     | Choice                     | Status (Approved, Rejected, Pending) |
+| ApprovalDateTime   | Date/Time                  | Time of decision                     |
+| Comments           | Text Area                  | Notes from approver                  |
+
+---
+
+## 3️⃣ Relationships Between Tables  
+
+| Primary Table | Related Table   | Relationship Type | Description                                      |
+|---------------|------------------|-------------------|--------------------------------------------------|
+| Customers     | Orders            | One-to-Many       | One customer can place many orders               |
+| Orders        | Order Items       | One-to-Many       | One order can contain multiple products          |
+| Products      | Order Items       | One-to-Many       | One product can appear in multiple order lines   |
+| Products      | Inventory         | One-to-One        | One inventory record per product                 |
+| Orders        | Approvals         | One-to-Many       | Orders may require multiple approvals            |
+
+All relationships are implemented using **Lookup columns in Dataverse**, maintaining data consistency and supporting rich filtering, rollups, and automation.
+
+---
+
+## 4️⃣ Dataverse Platform Justification  
+
+Microsoft Dataverse was selected due to:
+
+| Need                          | Dataverse Capability                                |
+|-------------------------------|-----------------------------------------------------|
+| Secure and centralized data   | Role-based access, encryption at rest and transit   |
+| Rapid app development         | Native support in Power Apps and Power Automate     |
+| Strong relationships          | Built-in referential integrity and lookups          |
+| Audit trail & compliance      | Native activity logging, field security             |
+| Integration potential         | Works with Power BI, AI Builder, external systems   |
+
+---
+
+## 5️⃣ Conclusion  
+
+By designing this data source using **Microsoft Dataverse**, Omega Manufacturing achieves:
+
+- A **single source of truth** across orders, inventory, products, and customers  
+- **Scalable, secure** data handling with audit trails and approval visibility  
+- A foundation for **automated workflows**, reports, and dashboards  
+- Preparedness for next-phase digital transformation using Power Apps, Power BI, Power Pages and Power Automation.
