@@ -6,10 +6,10 @@
 2. [Table/List Design](#2️⃣-tablelist-design)  
    - [2.1 Customers Table](#21-customers-table)  
    - [2.2 Products Table](#22-products-table)  
-   - [2.3 Orders Table](#2.3-orders-table)  
-   - [2.4 Order Items Table](#2.4-order-items-table)  
-   - [2.5 Inventory Table](#2.5-inventory-table)  
-   - [2.6 Approvals Table](#2.6-approvals-table)  
+   - [2.3 Orders Table](#23-orders-table)  
+   - [2.4 Order Items Table](#24-order-items-table)  
+   - [2.5 Inventory Table](#25-inventory-table)  
+   - [2.6 Approvals Table](#26-approvals-table)  
 3. [Relationships Between Tables](#3️⃣-relationships-between-tables)  
 4. [Dataverse Platform Justification](#4️⃣-dataverse-platform-justification)  
 5. [Conclusion](#5️⃣-conclusion)
@@ -62,7 +62,7 @@ Below is the proposed table design including columns and data types, purpose-bui
 
 ---
 
-### 📃 2.3 Orders Table  
+### 2.3 Orders Table  
 
 | Column Name   | Data Type                  | Description                      |
 |---------------|----------------------------|----------------------------------|
@@ -74,7 +74,7 @@ Below is the proposed table design including columns and data types, purpose-bui
 
 ---
 
-### 🧾 2.4 Order Items Table  
+### 2.4 Order Items Table  
 
 | Column Name     | Data Type                  | Description                          |
 |------------------|----------------------------|--------------------------------------|
@@ -87,7 +87,7 @@ Below is the proposed table design including columns and data types, purpose-bui
 
 ---
 
-### 🏪 2.5 Inventory Table  
+### 2.5 Inventory Table  
 
 | Column Name       | Data Type                  | Description                        |
 |--------------------|----------------------------|------------------------------------|
@@ -99,7 +99,7 @@ Below is the proposed table design including columns and data types, purpose-bui
 
 ---
 
-### ✅ 2.6 Approvals Table  
+### 2.6 Approvals Table  
 
 | Column Name       | Data Type                  | Description                          |
 |--------------------|----------------------------|--------------------------------------|
