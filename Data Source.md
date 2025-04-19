@@ -5,7 +5,7 @@
 1. [Objective](#1️⃣-objective)  
 2. [Table/List Design](#2️⃣-tablelist-design)  
    - [2.1 Customers Table](#21-customers-table)  
-   - [2.2 Products Table](#2.2-products-table)  
+   - [2.2 Products Table](#22-products-table)  
    - [2.3 Orders Table](#2.3-orders-table)  
    - [2.4 Order Items Table](#2.4-order-items-table)  
    - [2.5 Inventory Table](#2.5-inventory-table)  
@@ -50,7 +50,7 @@ Below is the proposed table design including columns and data types, purpose-bui
 
 ---
 
-### 📦 2.2 Products Table  
+### 2.2 Products Table  
 
 | Column Name   | Data Type                  | Description                      |
 |---------------|----------------------------|----------------------------------|
