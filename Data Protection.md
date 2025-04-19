@@ -55,9 +55,7 @@ The Sales Team interacts directly with customers and is responsible for generati
 | Inventory Records        | 🔒 Not Allowed    |
 | Financial Reports        | 🔒 Not Allowed    |
 
-#### Explanation:
-
-Sales personnel are granted full access to create, view, and update orders as part of their daily customer interaction processes. They can view customer details to personalize service and review product information to guide customer decisions. However, they are restricted from modifying inventory levels or accessing financial data, as these fall outside their operational scope and could expose the company to risk if mishandled.
+The sales personnel are granted full access to create, view, and update orders as part of their daily customer interaction processes. They can view customer details to personalize service and review product information to guide customer decisions. However, they are restricted from modifying inventory levels or accessing financial data, as these fall outside their operational scope and could expose the company to risk if mishandled.
 
 ---
 
@@ -76,9 +74,7 @@ The Inventory Team oversees warehouse operations, including stock tracking, move
 | Customer Info            | 🔒 Not Allowed    |
 | Financial Reports        | 🔒 Not Allowed    |
 
-#### Explanation:
-
-Inventory users have permission to manage stock levels and ensure that inventory records reflect real-time availability. Read-only access to order data allows them to prepare shipments without modifying sales records. They do not require visibility into customer or financial information, which protects against inadvertent disclosure or tampering.
+The inventory users have permission to manage stock levels and ensure that inventory records reflect real-time availability. Read-only access to order data allows them to prepare shipments without modifying sales records. They do not require visibility into customer or financial information, which protects against inadvertent disclosure or tampering.
 
 ---
 
@@ -96,9 +92,7 @@ The Finance Team handles the company’s financial reporting, budgeting, and rev
 | Customer Information     | 🔒 Not Allowed    |
 | Inventory Data           | 🔒 Not Allowed    |
 
-#### Explanation:
-
-Finance team members can view and analyze financial summaries to generate reports and track performance. They are restricted from editing orders or accessing customer-specific data to preserve data privacy and ensure auditability. This separation of duties enhances financial compliance and reduces the risk of conflict of interest or internal fraud.
+The finance team members can view and analyze financial summaries to generate reports and track performance. They are restricted from editing orders or accessing customer-specific data to preserve data privacy and ensure auditability. This separation of duties enhances financial compliance and reduces the risk of conflict of interest or internal fraud.
 
 ---
 
@@ -114,8 +108,6 @@ Microsoft Dataverse offers a multilayered security model that ensures users only
 | Field-Level Security     | Specific fields like pricing, personal contact info, or approval notes are hidden or locked from unauthorized users.         |
 | Record-Level Security    | Users only see records they own or those assigned to their team or business unit.                                           |
 | Team-Based Access        | Organizational teams reflect reporting lines and help scale access control as the company grows.                          |
-
-#### Explanation:
 
 Each security layer complements the others to create a comprehensive security perimeter. For example, a user may belong to a team that has access to an order table but still may not be able to see sensitive fields unless specifically granted. This approach ensures both vertical (role-based) and horizontal (record-based) control across the platform.
 
@@ -141,8 +133,6 @@ Data Loss Prevention policies help Omega Manufacturing prevent unauthorized data
 - **Testing**: Reflects production configuration while allowing controlled access for quality assurance.  
 - **Production**: Operates under strict policies. Only approved connectors are allowed, and all data interactions are logged and audited.
 
-#### Explanation:
-
 By applying different policies based on environment type, Omega Manufacturing ensures that sensitive data never unintentionally leaves the approved ecosystem. This protects not only customer and financial data but also intellectual property and internal documentation.
 
 ---
@@ -156,8 +146,6 @@ By applying different policies based on environment type, Omega Manufacturing en
 | DLP Enforcement              | Set through Power Platform Admin Center with locked-down production rules        |
 | Data Auditing and Monitoring| Enabled for all sensitive actions across environments                            |
 | Least Privilege Enforcement  | Users granted only the access they need for their responsibilities               |
-
-#### Explanation:
 
 Each control is designed to reinforce others. For example, auditing supports DLP policies by logging actions, while role-based access ensures users cannot bypass security by switching environments. This layered security model provides resilience against insider threats, accidental misuse, and external attacks.
 
