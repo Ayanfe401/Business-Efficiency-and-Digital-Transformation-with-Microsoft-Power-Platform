@@ -136,7 +136,7 @@ Understanding how these entities are connected is essential for a unified data s
 
 ## 3. Entity Relationship Diagram (ERD)
 
-Entity Relationship Diagram (ERD) for Omega Manufacturing's Order Processing System using straight lines and broken lines to differentiate relationships. Straight lines represent primary relationships (such as one-to-many connections), while broken lines indicate secondary or one-to-one relationships. The diagram below visually represents the relationships among these key entities. Each box represents a core table, and the connecting lines illustrate the relationships between them.
+Entity Relationship Diagram (ERD) for the company's Order Processing System using straight lines and broken lines to differentiate relationships. Straight lines represent primary relationships (such as one-to-many connections), while broken lines indicate secondary or one-to-one relationships. The diagram below visually represents the relationships among these key entities. Each box represents a core table, and the connecting lines illustrate the relationships between them.
 
 ```
                  +---------------------+         +---------------------+         +---------------------+
@@ -228,7 +228,7 @@ Below is a detailed explanation of the **arrows** and the **'1'** and **'N'** no
 
 ##  Conclusion
 
-This well-structured Dataverse schema for the Inventory Management System provides a robust foundation for automating Omega Manufacturing’s order processing and inventory tracking. By centralizing all critical data into one secure repository, this design ensures accuracy, eliminates manual errors, and allows for real‑time reporting and analytics. The relationships between the Customer, Product, Customer Order, Order Item, Inventory, and approval tables ensure seamless data flow.
+This well-structured Dataverse schema for the Inventory Management System provides a robust foundation for automating the company's order processing and inventory tracking. By centralizing all critical data into one secure repository, this design ensures accuracy, eliminates manual errors, and allows for real‑time reporting and analytics. The relationships between the Customer, Product, Customer Order, Order Item, Inventory, and approval tables ensure seamless data flow.
 
 ## Dataverse Entity Relationship Diagram for Omega Manufacturing
 
