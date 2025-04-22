@@ -98,7 +98,7 @@ The finance team members can view and analyze financial summaries to generate re
 
 ## 🧱 Dataverse Security Configuration
 
-Microsoft Dataverse offers a multilayered security model that ensures users only access the data they are entitled to. Omega Manufacturing configures Dataverse to secure its business data using the following mechanisms:
+Microsoft Dataverse offers a multilayered security model that ensures users only access the data they are entitled to. The company configures Dataverse to secure its business data using the following mechanisms:
 
 #### 🔧 Security Mechanisms in Use
 
