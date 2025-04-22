@@ -155,12 +155,12 @@ Each control is designed to reinforce others. For example, auditing supports DLP
 
 To preserve the security posture of the company's Power Platform deployment over time, the following guidelines are followed:
 
-- Apply **least privilege access** principles to all users. Only give access necessary for daily duties.  
-- Conduct **quarterly audits** of all roles, users, and permissions to catch and correct privilege creep.  
-- Regularly **review and update DLP policies** in response to new compliance requirements or business changes.  
-- Deliver **security awareness training** to both developers and end-users on best practices.  
-- Utilize real-time tools such as **Microsoft Defender for Cloud Apps** to detect anomalies and suspicious behavior.  
-- Enforce **Multi-Factor Authentication (MFA)** for all user accounts across Power Platform environments.  
+- Apply least privilege access principles to all users. Only give access necessary for daily duties.  
+- Conduct quarterly audits of all roles, users, and permissions to catch and correct privilege creep.  
+- Regularly review and update DLP policies in response to new compliance requirements or business changes.  
+- Deliver security awareness training to both developers and end-users on best practices.  
+- Utilize real-time tools such as Microsoft Defender for Cloud Apps to detect anomalies and suspicious behavior.  
+- Enforce Multi-Factor Authentication (MFA) for all user accounts across Power Platform environments.  
 
 ---
 
