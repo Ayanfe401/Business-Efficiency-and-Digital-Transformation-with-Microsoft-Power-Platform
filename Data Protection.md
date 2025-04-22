@@ -20,14 +20,14 @@
 
 ## 📌 Overview
 
-Omega Manufacturing leverages Microsoft Power Platform to streamline and digitize its critical operational areas including sales, inventory management, and finance. With key business data now stored in Microsoft Dataverse—including customer information, inventory levels, and transaction records—it is essential to implement a comprehensive and robust data protection strategy.
+The company leverages Microsoft Power Platform to streamline and digitize its critical operational areas including sales, inventory management, and finance. With key business data now stored in Microsoft Dataverse including customer information, inventory levels, and transaction records, it is essential to implement a comprehensive and robust data protection strategy.
 
 This strategy focuses on four main pillars:
 
 1. A well-structured Role-Based Access Control (RBAC) framework that ensures users only interact with data necessary for their role  
 2. Comprehensive Dataverse security configurations to manage access at record, field, and table levels  
 3. Enforced Data Loss Prevention (DLP) policies that minimize the risk of data leakage or external breaches  
-4. Industry-aligned security best practices that guarantee ongoing compliance and system integrity  
+4. Industry aligned security best practices that guarantee ongoing compliance and system integrity  
 
 ---
 
@@ -105,9 +105,9 @@ Microsoft Dataverse offers a multilayered security model that ensures users only
 | Security Layer           | Implementation Detail                                                                 |
 |---------------------------|----------------------------------------------------------------------------------------|
 | Security Roles           | Custom roles are assigned per department with CRUD (Create, Read, Update, Delete) permissions aligned to business needs. |
-| Field-Level Security     | Specific fields like pricing, personal contact info, or approval notes are hidden or locked from unauthorized users.         |
-| Record-Level Security    | Users only see records they own or those assigned to their team or business unit.                                           |
-| Team-Based Access        | Organizational teams reflect reporting lines and help scale access control as the company grows.                          |
+| Field Level Security     | Specific fields like pricing, personal contact info, or approval notes are hidden or locked from unauthorized users.         |
+| Record Level Security    | Users only see records they own or those assigned to their team or business unit.                                           |
+| Team Based Access        | Organizational teams reflect reporting lines and help scale access control as the company grows.                          |
 
 Each security layer complements the others to create a comprehensive security perimeter. For example, a user may belong to a team that has access to an order table but still may not be able to see sensitive fields unless specifically granted. This approach ensures both vertical (role-based) and horizontal (record-based) control across the platform.
 
@@ -115,14 +115,14 @@ Each security layer complements the others to create a comprehensive security pe
 
 ## 🚫 Data Loss Prevention (DLP) Policies
 
-Data Loss Prevention policies help Omega Manufacturing prevent unauthorized data access, misuse, or export. These policies are configured in the Power Platform Admin Center to control how data flows across services, connectors, and environments.
+Data Loss Prevention policies help the company to prevent unauthorized data access, misuse, or export. These policies are configured in the Power Platform Admin Center to control how data flows across services, connectors, and environments.
 
 #### 🔒 DLP Policy Design Table
 
 | Policy Area              | Enforcement Details                                                                 |
 |---------------------------|--------------------------------------------------------------------------------------|
 | Environment Segmentation | Development, Testing, and Production environments are isolated to prevent data bleed. |
-| Connector Grouping       | Business-only connectors like Outlook, SharePoint, and Dataverse are permitted.     |
+| Connector Grouping       | Business only connectors like Outlook, SharePoint, and Dataverse are permitted.     |
 | Blocked Connectors       | Public connectors such as Twitter, Gmail, and Dropbox are blocked from use.         |
 | Classification Rules     | Sensitive data fields (emails, pricing) are tagged and protected from movement.     |
 | Custom Connector Limits  | Custom connectors are disabled by default and must be reviewed before activation.   |
@@ -133,7 +133,7 @@ Data Loss Prevention policies help Omega Manufacturing prevent unauthorized data
 - **Testing**: Reflects production configuration while allowing controlled access for quality assurance.  
 - **Production**: Operates under strict policies. Only approved connectors are allowed, and all data interactions are logged and audited.
 
-By applying different policies based on environment type, Omega Manufacturing ensures that sensitive data never unintentionally leaves the approved ecosystem. This protects not only customer and financial data but also intellectual property and internal documentation.
+By applying different policies based on environment type, the company will ensures that sensitive data never unintentionally leaves the approved ecosystem. This protects not only customer and financial data but also intellectual property and internal documentation.
 
 ---
 
@@ -141,9 +141,9 @@ By applying different policies based on environment type, Omega Manufacturing en
 
 | Security Control             | Action Implemented                                                                |
 |------------------------------|-----------------------------------------------------------------------------------|
-| Role-Based Access            | Configured based on user function using Dataverse roles and Microsoft Entra ID   |
+| Role Based Access            | Configured based on user function using Dataverse roles and Microsoft Entra ID   |
 | Table and Field Permissions  | Defined per team to allow CRUD or read-only access as required                   |
-| DLP Enforcement              | Set through Power Platform Admin Center with locked-down production rules        |
+| DLP Enforcement              | Set through Power Platform Admin Center with locked down production rules        |
 | Data Auditing and Monitoring| Enabled for all sensitive actions across environments                            |
 | Least Privilege Enforcement  | Users granted only the access they need for their responsibilities               |
 
@@ -153,7 +153,7 @@ Each control is designed to reinforce others. For example, auditing supports DLP
 
 ## 📋 Best Practice Security Guidelines
 
-To preserve the security posture of Omega Manufacturing's Power Platform deployment over time, the following guidelines are followed:
+To preserve the security posture of the company's Power Platform deployment over time, the following guidelines are followed:
 
 - Apply **least privilege access** principles to all users. Only give access necessary for daily duties.  
 - Conduct **quarterly audits** of all roles, users, and permissions to catch and correct privilege creep.  
@@ -166,7 +166,7 @@ To preserve the security posture of Omega Manufacturing's Power Platform deploym
 
 ## ✅ Conclusion
 
-Omega Manufacturing’s Power Platform deployment is governed by a secure, scalable, and compliance-oriented data protection strategy. With strong alignment to industry best practices and Microsoft’s recommended security models, the company achieves:
+The company’s Power Platform deployment is governed by a secure, scalable, and compliance-oriented data protection strategy. With strong alignment to industry best practices and Microsoft’s recommended security models, the company achieves:
 
 - 🔒 Protection of sensitive customer, inventory, and financial data  
 - 🔐 Defined access boundaries tailored to each business unit's role  
